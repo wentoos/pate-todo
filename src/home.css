@@ -1,0 +1,127 @@
+.app-warp{
+    background: #6f9437;
+    height: 100vh;
+    padding-top: 50px;
+}
+.home-warp{
+    width: 567px;
+    height: 540px;
+    background: white;
+    margin:0 auto;
+    position: relative;
+    box-shadow: 3px 5px 4px 0;
+}
+.todolist{
+    margin-bottom: 40px;
+    overflow: auto;
+}
+.todolist li.completed {
+  color: #989191;
+  text-decoration: line-through;
+  position: relative;
+}
+.todolist .container {
+  margin:0 120px;
+  height: 240px;
+  overflow: auto;
+}
+.container ul{
+    padding: 0
+}
+.todolist li {
+  line-height: 60px;
+  font-size: 24px;
+  list-style: none;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.todolist li.completed:after {
+  content: ' ';
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-image: url('/img/check-mark.svg');
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+}
+h2{
+    text-align: center;
+    font-size: 36px;
+    line-height: 128px;
+    font-family: 'Arial Rounded MT Bold';
+    margin: 0
+}
+.item{
+    width: 200px;
+    margin: 0 auto;
+    cursor: pointer;
+
+}
+.item-icon svg{
+    width: 15px;
+    height: 15px;
+
+}
+.item-icon{
+    float: right;
+}
+.post-item{
+    position: absolute;
+    bottom: 0;
+}
+.form {
+
+    margin:0 120px;
+    position: relative;
+}
+.form .text{
+    display:block;
+    background: #d8d8d8;
+    border: 0;
+    width: 320px;
+    padding-left: 10px;
+    outline: none;
+    line-height:32px;
+    float: left;
+    margin: 13px 0;
+}
+.form .submit{
+    float: left;
+    height: 60px;
+    position: absolute;
+    right:-10px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    padding: 0;
+    width: 60px;
+    border-radius: 50%;
+    background: #7ed321;
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+
+}
+.form .icon {
+    width: 40px;
+    height: 40px;
+}
+.actions{
+    padding: 10px 120px 20px;
+}
+.actions div{
+    width: 50px;
+    float: left;
+    margin: 5px 50px;
+    cursor: pointer;
+}
+.actions div svg,.actions div svg path{
+    width: 50px;
+    height: 50px;
+}
