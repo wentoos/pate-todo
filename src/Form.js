@@ -11,6 +11,7 @@ class Form extends React.Component{
         if(value.length > 0){
             store.dispatch({type:'TITLE',value})
         }
+        this.input.value = ''
     }
     render(){
             return (

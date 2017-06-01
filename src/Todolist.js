@@ -2,10 +2,6 @@ import React from 'react'
 import store from './redux/store'
 import { connect } from 'react-redux'
 class TodoList extends React.Component{
-    constructor() {
-        super()
-
-    }
     bandleWork(e){
         let id = e.target.id
         console.log(this.props.todos);
