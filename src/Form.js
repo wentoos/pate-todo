@@ -16,7 +16,7 @@ class Form extends React.Component{
     render(){
             return (
                 <form className='form clearfix' onClick={this.bandleSubimt}>
-                    <input type='text' className='text' placeholder='请嘚瑟...' ref={ input => this.input = input}/>
+                    <input type='text' className='text' placeholder='请输入内容...' ref={ input => this.input = input}/>
                     <input type='submit' className='submit' value='+'/>
                 </form>
         )
